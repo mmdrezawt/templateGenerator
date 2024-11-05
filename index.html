@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Template-Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="template-wrapper">
+            <div class="template-section">
+                <pre>
+                <code class="code-section"></code>
+              </pre>
+            </div>
+            <button class="copy">copy</button>
+        </div>
+        <div class="side-section">
+            <div class="input-section">
+                <input autocomplete="off" class="input" type="text" name="iWord" id="inWord"
+                    placeholder="WORD TO BE REPLACE">
+            </div>
+            <div class="input-section">
+                <input autocomplete="off" class="input" type="text" name="iWord" id="oWord"
+                    placeholder="REPLACEMENT WORD">
+            </div>
+            <div>
+                <textarea class="template-input" name="template" id="template"
+                    placeholder="GIVE ME A TEMPLATE"></textarea>
+            </div>
+            <button class="btn" type="submit">GENERATE</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
